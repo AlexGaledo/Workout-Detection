@@ -26,7 +26,7 @@ def supports_cv2_gui():
 # === CONFIGURATION ===
 MODEL_PATH = "models/pushup_pose_classifier_merged.pkl"  # Your trained model
 POSE_MODEL = "yolov8n-pose.pt"  
-THRESHOLD = 0.7  # Optimized threshold
+THRESHOLD = 0.4  # Optimized threshold
 
 # === LOAD MODELS ===
 print("Loading models...")
